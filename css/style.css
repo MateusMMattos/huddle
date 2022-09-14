@@ -1,0 +1,45 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+}
+#sectionCta {
+    background-color: hsl(257, 40%, 49%);
+    margin-top: 250px;
+    width: 600px;
+    height: 250px;
+    margin-left: 750px;
+}
+#sectionCta a {
+    position: absolute;
+    font-size: normal;
+    font-family: 'Poppins';
+    color: white;
+}
+#sectionCta h1 {
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+#button {
+    background-color: hsl(257, 40%, 49%);
+    height: 80px;
+    width: 600px;
+    margin-left: 750px;
+}
+#buttonCta {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    font-style: normal;
+    font-family: 'Poppins';
+    font-size: 15px;
+    text-align: center;
+    color: hsl(300, 69%, 71%);
+    padding: 15px 60px 15px 60px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px 0px;
+}
+@media only screen and (min-width: 1024px) {
+    section {
+        justify-content: center;
+    }
+}
