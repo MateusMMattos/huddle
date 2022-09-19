@@ -1,0 +1,24 @@
+footer a {
+    padding: 5px;
+}
+
+svg:hover,
+svg:active {
+    fill: hsl(300, 69%, 71%);
+}
+
+.media-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.social-icons {
+    display: flex;
+    padding: 30px 80px 30px 80px;
+}
+
+@media screen and  (max-width:1024px) {
+    .media-container {
+        justify-content: center;
+    }
+} 
