@@ -1,11 +1,14 @@
+:root {
+    font-size: 62,5%;
+}
 body {
     background-color: hsl(257, 40%, 49%);
 }
 #sectionCta {
-    margin-top: 200px;
-    width: 600px;
-    height: 250px;
-    margin-left: 750px;
+    margin-top: 20.0rem;
+    width: 60.0rem;
+    height: 25.0rem;
+    margin-left: 60%;
 }
 #sectionCta a {
     position: absolute;
@@ -15,29 +18,24 @@ body {
 }
 #sectionCta h1 {
     font-family: 'Poppins';
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 600;
     color: white;
 }
 #button {
-    height: 80px;
-    width: 600px;
-    margin-left: 750px;
+    height: 8.0rem;
+    width: 60.0rem;
+    margin-left: 60%;
 }
 #buttonCta {
     background-color: rgb(255, 255, 255);
-    border-radius: 50px;
+    border-radius: 5.0rem;
     font-style: normal;
     font-family: 'Poppins';
-    font-size: 15px;
+    font-size: 1.5rem;
     text-align: center;
     color: hsl(300, 69%, 71%);
-    padding: 15px 60px 15px 60px;
+    padding: 1.5rem 6.0rem 1.5rem 6.0rem;
     text-decoration: none;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-@media only screen and (min-width: 1024px) {
-    section {
-        justify-content: center;
-    }
 }
