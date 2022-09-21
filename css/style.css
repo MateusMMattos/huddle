@@ -1,12 +1,14 @@
 body {
   background: linear-gradient(180deg, hsl(257, 40%, 49%), hsl(300, 69%, 71%));
+  height: 100vh;
+  margin: 0;
 }
 
 .main {
   width: 75vh;
   height: 65vh;
   border: none;
-  margin: 6.5rem;
+  margin: 0 0 6.5rem 6.5rem;
   border-radius: 5%;
   background-color: #fff;
 }
