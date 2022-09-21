@@ -29,7 +29,6 @@ body {
   width: 40%;
 }
 
-/*icons*/
 img {
   margin-top: -2rem;
   margin-left: 85%;
@@ -159,4 +158,30 @@ h3 {
   border-radius: 25rem;
   border: 1px solid #ccc;
   background-color: #ccc;
+}
+
+
+footer a {
+    padding: 5px;
+}
+
+svg:hover,
+svg:active {
+    fill: hsl(300, 69%, 71%);
+}
+
+.media-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.social-icons {
+    display: flex;
+    padding: 30px 80px 30px 80px;
+}
+
+@media screen and  (max-width:1024px) {
+    .media-container {
+        justify-content: center;
+    }
 }
